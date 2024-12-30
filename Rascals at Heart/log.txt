@@ -1,10 +1,10 @@
-2024-12-23 04:34:30 UTC
+2024-12-30 04:46:07 UTC
 Windows-10-10.0.19045
 Ren'Py 8.3.4.24120703
 
 Early init took 0.08s
 Loading error handling took 0.03s
-Loading script took 0.17s
+Loading script took 0.18s
 Loading save slot metadata took 0.03s
 Loading persistent took 0.00s
 Running init code took 0.05s
@@ -20,7 +20,7 @@ Initial gc took 0.04s
 DPI scale factor: 2.500000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 0.35s
+Creating interface object took 0.37s
 Cleaning stores took 0.00s
 Init translation took 0.03s
 Build styles took 0.00s
@@ -31,7 +31,7 @@ Prepare screens took 0.06s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.03s
 Running _start took 0.00s
-Interface start took 0.57s
+Interface start took 1.72s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 3840, 2160)
@@ -43,3 +43,10 @@ Version: b'4.6.0 NVIDIA 566.14'
 Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(3640, 2048) drawable=(3640, 2048)
 Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s

@@ -1,0 +1,28 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/chapter1.rpy", line 112, in script
+    with fadeout
+  File "game/chapter1.rpy", line 112, in <module>
+    with fadeout
+NameError: name 'fadeout' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/chapter1.rpy", line 112, in script
+    with fadeout
+  File "C:\RenPy\renpy-7.4.4-sdk\renpy\ast.py", line 1360, in execute
+    trans = renpy.python.py_eval(self.expr)
+  File "C:\RenPy\renpy-7.4.4-sdk\renpy\python.py", line 1209, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\RenPy\renpy-7.4.4-sdk\renpy\python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/chapter1.rpy", line 112, in <module>
+    with fadeout
+NameError: name 'fadeout' is not defined
+
+Windows-10-10.0.19045 AMD64
+Ren'Py 8.3.4.24120703
+Rascals at Heart 1.0
+Mon Dec 30 12:40:32 2024
