@@ -1,14 +1,31 @@
-﻿# The script of the game goes in this file.
-
-# Declare characters used by this game. The color argument colorizes the
-# name of the character.
-
-define b = Character(None, kind=nvl)
+﻿define b = Character(None, kind=nvl)
 define pov = Character(None)
 define r = Character("Rika", image="rika", color="#4906e7")
 define s = Character("Satoko", image="satoko", color="#ebeb34")
+define h = Character("Hanyuu", image="hanyuu", color="#7c46fa")
 
-# The game starts here.
+init python:
+    # Code for crossfading music
+    renpy.music.register_channel("music1", mixer="music", loop=True, stop_on_mute=True, tight=False, file_prefix='', file_suffix='', buffer_queue=True)
+
+    def audio_crossFade(fadeTime, music):
+        oldChannel = None
+        newChannel = None
+        if renpy.music.get_playing(channel="music") is not None and renpy.music.get_playing(channel="music1") is None:
+            oldChannel = "music"
+            newChannel = "music1"
+        elif renpy.music.get_playing(channel="music") is None and renpy.music.get_playing(channel="music1") is not None:
+            oldChannel = "music1"
+            newChannel = "music"
+        elif renpy.music.get_playing(channel="music") is None and renpy.music.get_playing(channel="music1") is None:
+            oldChannel = None
+            newChannel = "music"
+            
+        if oldChannel is not None:
+            renpy.music.stop(channel= oldChannel, fadeout=fadeTime)
+            
+        if newChannel is not None:
+            renpy.music.play(music, channel=newChannel, loop=None,fadein=fadeTime)
 
 label start:
 
@@ -16,8 +33,6 @@ label start:
 
     scene fure2
     with Fade(1.0, 1.0, 2.0, color="#fff")
-
-    # These display lines of dialogue.
 
     b """
     Oh the stories you'll survey in this sea of fragments,
