@@ -297,6 +297,7 @@ screen navigation():
         if main_menu:
 
             textbutton _("Start") action Start()
+            textbutton _("Chapters") action ShowMenu("chapterSelect")
 
         else:
 
@@ -572,6 +573,28 @@ style about_text is gui_text
 style about_label_text:
     size gui.label_text_size
 
+
+## Chapter Select screen #######################################################
+##
+## Coding for a chapter select screen selectable on the main menu
+
+screen chapterSelect():
+
+    tag menu
+    use chapters
+    textbutton _("Return"):
+        style "return_button"
+        action Return()
+
+screen chapters():
+    use game_menu(_("Chapters"), scroll="viewport"):
+        vbox:
+            textbutton _("Prologue"):
+                action Start()
+            textbutton _("Chapter 1"):
+                action Start("chapter1")
+            textbutton _("Chapter 2"):
+                action Start("chapter2")
 
 ## Load and Save screens #######################################################
 ##

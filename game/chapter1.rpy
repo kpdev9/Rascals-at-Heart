@@ -1,4 +1,5 @@
 label chapter1:
+    stop music fadeout 2.0
     scene sora
     with Fade(2.0, 2.0, 2.0, color="#fff")
     
@@ -24,8 +25,8 @@ label chapter1:
     Now that I think about it, it is the beginning of July, I can see why that would be the case, with it taking advantage of the season.
     """
 
-    show satoko
-    s happy 3 "Come on, Rika. We don't have a minute to lose!"
+    show satoko happy 3
+    s "Come on, Rika. We don't have a minute to lose!"
 
     s "Those extra special products will be gone before you know it."
     
@@ -87,7 +88,7 @@ label chapter1:
     How could I possibly live without my beloved-  
     """
 
-    hide windo_filter_nvladv
+    hide windo_filter_nvladv with None
     stop music
 
     s concerned "R-Rika, are you alright?"
@@ -131,9 +132,9 @@ label chapter1:
     extend " She changes her form to whichever one she wants, so tonight, she was in her spectral form."
 
     play music "Iru.mp3"
-    show hanyuu:
+    show hanyuu spirit neutral:
         alpha .5 # Hanyuu only appears in spirit form in this one scene, so setting it up like this is fine.
-    h spirit neutral "Rika, is there something bothering you? You don't seem to be your usual self. Au au~."
+    h "Rika, is there something bothering you? You don't seem to be your usual self. Au au~."
 
     r "I don't know what has come over me."
     
@@ -233,3 +234,7 @@ label chapter1:
     "Perhaps it was just me, enveloped in all these emotions that I started to feel a warm sensation."
     
     "So this is what it feels like to fall in love, huh?"
+
+    stop music1 fadeout 2.0
+
+    jump chapter2

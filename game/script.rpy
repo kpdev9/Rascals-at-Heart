@@ -1,8 +1,14 @@
 ﻿define b = Character(None, kind=nvl)
-define pov = Character(None)
+define huh = Character("???")
 define r = Character("Rika", image="rika", color="#4906e7")
 define s = Character("Satoko", image="satoko", color="#ebeb34")
 define h = Character("Hanyuu", image="hanyuu", color="#7c46fa")
+define k = Character("Keiichi", image="keiichi", color="#5d4001")
+define re = Character("Rena", image="rena", color="#ff6f00")
+define m = Character("Mion", image="mion", color="#00e304")
+define sh = Character("Shion", image="shion", color="#39fa3c")
+
+define _scene_show_hide_transition = Dissolve(0.5)
 
 init python:
     # Code for crossfading music
@@ -29,7 +35,7 @@ init python:
 
 label start:
 
-    play music "Over the sky.mp3"
+    $ audio_crossFade(3, "Over the sky.mp3")
 
     scene fure2
     with Fade(1.0, 1.0, 2.0, color="#fff")
@@ -86,6 +92,6 @@ label start:
 
     # This ends the game.
     nvl clear
-    stop music fadeout 2.0
+    stop music1 fadeout 2.0
 
     jump chapter1

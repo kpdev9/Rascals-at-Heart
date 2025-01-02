@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/chapter1.rpy", line 60: end of line expected.
-    with dissolve 2.0
-                  ^
+File "game/script.rpy", line 37: expected menuitem
+    “Chapter 1”:
+    ^
 
 Ren'Py Version: Ren'Py 8.3.4.24120703
-Mon Dec 23 12:33:23 2024
+Thu Jan  2 13:05:15 2025

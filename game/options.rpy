@@ -44,6 +44,19 @@ Dedicated to the story of Higurashi written by Ryukishi07
 
 define build.name = "RascalsatHeart"
 
+## Defining positions for sprites
+
+define slightleft = Position(xpos=-0.1, xanchor='left')
+define left = Position(xpos=-0.2, xanchor='left')
+define thirdleft = Position(xpos=-0.33, xanchor='left')
+define halfleft = Position(xpos=-0.5, xanchor='left')
+define extremeleft = Position(xpos=-0.9, xanchor='left')
+define center = Position(xpos=0.5, xanchor='center')
+define slightright = Position(xpos=1.1, xanchor='right')
+define right = Position(xpos=1.2, xanchor='right')
+define thirdright = Position(xpos=1.33, xanchor='right')
+define halfright = Position(xpos=1.5, xanchor='right')
+define extremeright = Position(xpos=1.9, xanchor='right')
 
 ## Sounds and music ############################################################
 
@@ -145,9 +158,9 @@ default preferences.afm_time = 15
 ##
 ## Windows: %APPDATA\RenPy\<config.save_directory>
 ##
-## Macintosh: $HOME/Library/RenPy/<config.save_directory>
+## Macintosh: defineHOME/Library/RenPy/<config.save_directory>
 ##
-## Linux: $HOME/.renpy/<config.save_directory>
+## Linux: defineHOME/.renpy/<config.save_directory>
 ##
 ## This generally should not be changed, and if it is, should always be a
 ## literal string, not an expression.
