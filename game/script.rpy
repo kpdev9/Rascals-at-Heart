@@ -1,4 +1,5 @@
-﻿define b = Character(None, kind=nvl)
+﻿# Defining characters here
+define b = Character(None, kind=nvl)
 define huh = Character("???")
 define r = Character("Rika", image="rika", color="#4906e7")
 define s = Character("Satoko", image="satoko", color="#ebeb34")
@@ -8,6 +9,7 @@ define re = Character("Rena", image="rena", color="#ff6f00")
 define m = Character("Mion", image="mion", color="#00e304")
 define sh = Character("Shion", image="shion", color="#39fa3c")
 
+# Sprites will always dissolve into the scene whenever shown
 define _scene_show_hide_transition = Dissolve(0.5)
 
 init python:

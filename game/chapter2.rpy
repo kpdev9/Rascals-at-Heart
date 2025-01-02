@@ -135,3 +135,130 @@ label chapter2:
     extend " How did none of us notice her coming around here?"
 
     m "Eh?! Shion?! What are you doing here?"
+
+    sh neutral arm "Well... I was just passing by, checking up with Satoko to see if she was fine."
+    
+    sh wink arm "And don't worry, Rika-chan, I've heard everything, but I won't tell. Hehehe."
+
+    show mion neutral
+    show keiichi neutral 2
+
+    re neutral "Since you're here anyways, would you like to share something that could help Rika-chan here? Would you?"
+
+    sh "Hmm, you should know by now that I do have experience in this field, being in love with Satoko's brother and all."
+
+    sh neutral arm "Sure, all the suggestions that have been thrown around just now seem like great suggestions, but I bet this will take great preparation."
+
+    sh "For now, though, when all else fails, you'll just have to be the one to look out for her;"
+    
+    extend " comfort her when she needs it; be there when she wants you to."
+
+    sh "Eventually, you could probably make your move, but I wouldn't know about getting that far."
+
+    sh embarrased arm "Oh dear, maybe I got a bit sidetracked there."
+    
+    extend " I guess I wasn't really much help with that after all."
+
+    r "No no, Shion-san,"
+
+    extend " I think that was some wonderful advice at least."
+
+    sh happy arm 2 "Oh, you think so? I'm glad."
+
+    "But really, everyone gave me some really good advice and tips on how to pull this off."
+    
+    extend " I couldn't ask for better friends."
+
+    r "But, even with all this advice, I still feel unprepared for all this. I want to get advice from other people."
+
+    k confused "Well, there's people like Irie and Tomitake, you could ask them,"
+
+    extend " That is, if they would even know anything about this in the first place."
+
+    m embarrased "Granny might also know something about this, although I don't think you'd really want to take advice from her, especially about a topic such as this."
+
+    sh embarrased arm "Yeah, I'd have to agree."
+
+    r "Right then, I'll go to the clinic to speak with Irie-san."
+    
+    extend " Thank you guys again for your advice."
+
+    k neutral 1 "Of course we tried our best to give you advice."
+    
+    extend " It's just simply what we should do as friends, after all."
+
+    r "Right, Keiichi."
+    
+    extend " Well, I'll be going now. I'll keep on fighting for her heart! Nipah~~!"
+
+    show rena happy arms 1
+    show keiichi happy
+    show mion wink
+    show shion wink arm
+
+    "I waved back to my friends as I headed off joyously."
+
+    scene sora
+    with dissolve
+
+    "My my, this is going better than I have ever expected."
+    
+    extend " At this rate, I may pull this off by the end of the week."
+    
+    extend " Only time will tell however..."
+
+    stop music fadeout 1.5
+    pause 1.5
+
+    re "So, Kei-chan, about that date..."
+
+    k "Hey, I thought we weren't going to discuss that."
+
+    re "Haaauu. The only one who's going to take Keiichi home will be me. I will take him home!"
+
+    k "Oh, not again."
+
+    pause 0.5
+
+    scene sora5
+    with dissolve
+
+    pause 2.0
+
+    scene jt1
+    with dissolve
+
+    play music "Bellflower.mp3"
+
+    "I couldn't hear what they were saying since they were so far away from the overview area,"
+    
+    extend " but by the looks of things, they seemed to have a discussion of their own without me being involved."
+
+    "Considering this, they could be discussing something related to me if they didn't invite me to talk."
+    
+    extend " I would've gone to join their conversation, but Hanyuu advised against it."
+
+    show hanyuu casual au
+    h "Au, how do I explain?"
+    
+    extend " Th- They're discussing private matters that you wouldn't be able to understand, I guess."
+
+    s "Hmm, sure, perhaps that was what Rika told you anyways."
+    
+    s "Still, it seems kind of odd, why would they want to discuss about me?"
+    
+    extend " Was it something I've said or done?"
+
+    h casual worried "Ah, no no no, nothing like that, auauau."
+
+    s "This just brings up more confusion."
+
+    scene jt2
+    with dissolve
+
+    "Just then, someone appeared from the path down to the shrine."
+
+    show shion wink arm
+    sh "Oh, there you are Satoko. I just came by to check up on you."
+    
+    extend " Have you been eating your greens?"
