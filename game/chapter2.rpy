@@ -89,7 +89,7 @@ label chapter2:
     
     extend " every girl would like a little gift as a token of appreciation."
 
-    m happy "Just like when Kei-san gave me that doll that one."
+    m happy "Just like when Kei-san gave me that doll that one time."
     
     extend " By the way, I really appreciated that, Keiichi."
 
@@ -262,3 +262,74 @@ label chapter2:
     sh "Oh, there you are Satoko. I just came by to check up on you."
     
     extend " Have you been eating your greens?"
+
+    s "Um, yeah sure."
+    
+    extend " Say, you were down their with the club just then. Perhaps you may know what they were discussing just now."
+
+    sh confused "Hm, oh yeah. Well... um... we were just planning a big surprise for you."
+    
+    extend " Not anything like a Birthday party or anything."
+    
+    sh wink arm "But, we can't tell you because it's a surprise. Yeah, that's it."
+
+    s "Huh, if that's the case, what could it possibly be celebrating?"
+    
+    extend " I can't think of one reason you guys would be doing this."
+
+    sh cunning arm "Uuuummmm... T-That's right, it's a surprise, so we can't even tell you what it's for, right, yeah! Hehehe."
+
+    "Clearly, there was more to this surprise than meets the eye."
+
+    s "Alright, enough with the tricks. Even I could identify a lie coming from you."
+    
+    extend " But if you won't tell me about that discussion, so be it."
+
+    sh serious "Yeah, you're kind of right. But really, I can't tell you;"
+    
+    extend " Rika is afraid you might get upset about it. You'll just have to take my word for it."
+
+    "Hanyuu was nodding in agreement behind me."
+
+    s "Alright, I'll take your word for it."
+    
+    extend " Although, maybe it would be best if I ask Rika about this; I know she'll be honest with me if the matter isn't too serious."
+    
+    extend " By the way, where did she head off to just now?"
+
+    sh confused "Rika is headed to the clinic, I think."
+
+    s "Huh?"
+    
+    extend " Oh, I suppose I couldn't possibly ask you about that."
+    
+    extend " No matter, I'll just head there myself. Later!"
+
+    sh shocked "W-Wait a moment, Satoko..."
+
+    scene mo3
+    with wiperight
+
+    "I rushed off without a moment's notice."
+    
+    "Just what is up with Rika and this discussion possibly involving me? This all seems strange."
+
+    "Come to think of it, she has been acting odd lately. She seems to stare off into space more often than usual."
+
+    "Not only that, she appears... flustered?"
+    
+    extend " Once she snaps out of it, she seems to act that way."
+
+    "Even last night, Rika seemed a little closer to me than usual,"
+    
+    extend " in fact, it felt like that. Could it be...?"
+
+    "I could only hypothesise what all this really meant."
+    
+    extend " I might be what I think it is, on one hand, but in the other, I could be interpreting this incorrectly."
+
+    "Oh my, perhaps my emotions..."
+
+    extend " are also getting a bit mixed up too."
+
+    jump chapter3
