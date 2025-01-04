@@ -58,7 +58,6 @@ label chapter1:
     "As I help her with the ingredients, I subconsciously reminisce on Satoko's past."
 
     show windo_filter_nvladv
-    with dissolve
 
     play music "Two, Alone.mp3"
 
@@ -109,10 +108,18 @@ label chapter1:
 
     "I couldn't think straight about this. I'll need to think deeply about this later."
 
-    hide satoko
+    scene sora
+    with dissolve
+
+    pause 1.0
+
+    scene sora_01
+    with dissolve
+
+    pause 1.0
 
     scene yhu2
-    with Fade(2.0, 2.0, 2.0)
+    with dissolve
 
     pause 3.0
 

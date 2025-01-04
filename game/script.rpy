@@ -2,7 +2,7 @@
 define b = Character(None, kind=nvl)
 define huh = Character("???", color="#ffffff")
 define r = Character("Rika", image="rika", color="#4906e7")
-define s = Character("Satoko", image="satoko", color="#ebeb34")
+define s = Character("Satoko", image="satoko", color="#f7f71a")
 define h = Character("Hanyuu", image="hanyuu", color="#7c46fa")
 define k = Character("Keiichi", image="keiichi", color="#5d4001")
 define re = Character("Rena", image="rena", color="#ff6f00")
@@ -10,6 +10,7 @@ define m = Character("Mion", image="mion", color="#00e304")
 define sh = Character("Shion", image="shion", color="#39fa3c")
 define i = Character("Irie", image="irie", color="#f8f282")
 define t = Character("Tomitake", image="tomitake", color="#006e02")
+define ta = Character("Takano", image="takano", color="#d1d100")
 
 # Sprites will always dissolve into the scene whenever shown
 define _scene_show_hide_transition = Dissolve(0.5)
