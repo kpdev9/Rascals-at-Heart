@@ -11,6 +11,8 @@ define sh = Character("Shion", image="shion", color="#39fa3c")
 define i = Character("Irie", image="irie", color="#f8f282")
 define t = Character("Tomitake", image="tomitake", color="#006e02")
 define ta = Character("Takano", image="takano", color="#d1d100")
+define te = Character("Teppei")
+define o = Character("Ooishi", image="ooishi", color="#ffffff")
 
 # Sprites will always dissolve into the scene whenever shown
 define _scene_show_hide_transition = Dissolve(0.5)

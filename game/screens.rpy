@@ -597,6 +597,10 @@ screen chapters():
                 action Start("chapter2")
             textbutton _("Chapter 3"):
                 action Start("chapter3")
+            textbutton _("Chapter 4"):
+                action Start("chapter4")
+            textbutton _("Chapter 5")
+            textbutton _("Epilogue")
 
 ## Load and Save screens #######################################################
 ##
