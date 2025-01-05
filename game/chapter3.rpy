@@ -3,8 +3,8 @@ label chapter3:
     scene sinryou_sinsatu1_02
     with Fade(2.0, 2.0, 2.0)
 
-    show irie neutral at left
     show tomitake embarrased at right
+    show irie neutral at left
 
     play music "Silence.mp3"
 
@@ -60,7 +60,8 @@ label chapter3:
     
     extend " I know this seems like a very obvious favour to ask of you, but-"
     
-    show irie seriouser
+    show irie seriouser:
+        truecenter zoom 1.5
 
     "Irie placed his hand on my sholder."
 
@@ -78,7 +79,10 @@ label chapter3:
     
     extend " You can count on me! Nipah~!"
 
-    i neutral "That's the spirit, Rika-chan!"
+    show irie neutral at left:
+        zoom 1.0
+
+    i "That's the spirit, Rika-chan!"
     
     i happy "Now you go out there and make your dream come true!"
 
