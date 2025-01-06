@@ -1,9 +1,7 @@
 label epilogue:
-    stop music fadeout 2.0
+    play music "Beat.mp3"
     scene kakera
     with Fade(2.0, 2.0, 2.0, color="#fff")
-
-    play music "Beat.mp3"
 
     b """
     So, how was that?

@@ -330,7 +330,7 @@ label chapter3:
 
     s suspicious arms "R-Right, I see."
 
-    show satoko happy
+    show satoko happy 1
 
     extend " I guess that's a valid reason. Ohohoho."
 

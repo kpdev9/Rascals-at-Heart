@@ -337,9 +337,9 @@ label chapter4:
     scene mati_o1
     with hpunch
 
-    show satoko shocked 3 with None
     show uncle with None:
         alpha 0.5
+    show satoko shocked 3 with None
 
     "What came next was a terrible feeling."
     
@@ -491,7 +491,7 @@ label chapter4:
 
     m "Go Rika-chan!"
 
-    r "You can do it, Rika-chan!"
+    re "You can do it, Rika-chan!"
 
     scene mati3_01
     with dissolve
@@ -503,3 +503,5 @@ label chapter4:
     extend " I believe this will be a success."
     
     extend " I've just hurdled over a great obstacle in my life, nothing else could stop me now."
+
+    jump chapter5
