@@ -5,3 +5,6 @@ Assets are provided from the Higurashi Visual Novels as well as assets provided 
 
 https://07th-mod.com/
 https://archiveofourown.org/works/30674972
+
+Releases of the VN are available from itch:
+https://itchingforsoftware.itch.io/rascals-at-heart
